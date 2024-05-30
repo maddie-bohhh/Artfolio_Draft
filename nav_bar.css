@@ -1,0 +1,54 @@
+/*body {
+  font-family: "Nunito", sans-serif;
+  background-color: darkcyan;}
+  .nav-menu a{
+    position: relative;
+    align-content: end;
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 29px 35px 69px 45px ;
+    color:rgb(11, 35, 47);
+    text-decoration: none;
+    font-size: 17px;
+  }*/
+  
+  .nav-menu a:hover {
+    color:goldenrod;
+    transition: all 0.2s ease-out;
+  }
+
+  .nav-container {transition: all 0.5s ease;}
+  
+  .nav-menu li a{
+   transition-duration: 1s;
+  }
+  .nav-menu li:hover a {
+    font-weight: bold;
+    font-size:35px;
+  }
+  .navbar ul{
+    display: flex;
+    list-style:none;
+    position: absolute;
+    border-color: rgb(194, 155, 57);
+    border-style:solid;
+    border-width: 7px;}
+
+
+.header1 {
+  background:
+  url("Images/Crafts/arms.png");
+  background-color:rgb(176, 234, 234);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  border-style:solid;
+  border-color: rgb(194, 155, 57);
+  border-width: 10px;
+  padding-bottom: 75px;}
+
+  /*leave this alone*/
+
+
+  .hero-text {
+  color: rgb(0, 0, 0);}
